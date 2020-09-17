@@ -10,6 +10,7 @@ ReactDOM.render(
     <HelloStudent name="Eboka" />
     <HelloStudent name="Atinder" />
     <HelloStudent name="Birm" />
+    <HelloStudent name="Krisztina" />
   </React.StrictMode>,
   document.getElementById('root')
 );
