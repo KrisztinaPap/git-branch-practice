@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import HelloWorld from './components/HelloWorld';
 import HelloStudent from './components/HelloStudent';
+import HelloWarren from './components/HelloWarren';
 
 
 ReactDOM.render(
@@ -13,6 +14,7 @@ ReactDOM.render(
     <HelloStudent name="Atinder" />
     <HelloStudent name="Birm" />
     <HelloStudent name="Krisztina" />
+    <HelloWarren />
   </React.StrictMode>,
   document.getElementById('root')
 );
